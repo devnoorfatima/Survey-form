@@ -1,0 +1,98 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="survey.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 id="title"><u>Survey Form</u> </h1>
+    <p id="description">
+        Let us know how we can improve freeCodeCamp
+       </p>
+<form id="survey-form">
+   <div class="name"> <label id="name-label"><u>Name:</u></label>
+    <input  type="text" placeholder="Enter Your Name" id="name" required >
+</div>
+<div class="Email">
+<label id="email-label"><u> Email</u>:</label>
+<input type="Email" placeholder="Enter ayour Email" id="email" required >
+</div>
+<div class="number">
+<label id="number-label"><u>Age </u>  :</label>
+<input type="number" placeholder="Age" 
+min="1" max="125" id="number">
+</div>
+<div id="dropdown">
+    <p>Which option best describes your current role ?</p>
+<select>
+    <option>Select an option</option>
+    <option>Student</option>
+    <option>Full time job</option>
+    <option>Full time learner</option>
+    <option>Prefer not to say</option>
+    <option>Other</option>
+</select>
+</div>
+<div id="radio">
+<p>How likely is that you recommend freeCodeCamp to a friend ?</p>
+<label for="Definitely">-Definitely</label>
+<input name="suggestionchoice" id="Definitely" type="radio" value="Definitely">
+<label for="Maybe">-Maybe</label>
+<input name="suggestionchoice" id="Maybe" type="radio" value="Maybe">
+<label for="Not sure">Not Sure</label>
+<input name="suggestionchoice" id="Not sure" type="radio" value="Not sure">
+</div>
+<div id="select">
+    <p>What do you like most in FCC:</p>
+    <select>
+        <option>Select an option</option>
+        <option>Challenges</option>
+        <option>Projects</option>
+        <option>Community</option>
+        <option>Open Source</option>
+    </select>
+    </div>
+
+    <div class="checkbox">
+    <p>Things that should be improved in the future
+        (Check all that apply):
+    </p>
+    
+        <input type="checkbox" value="front-end projects">
+        <label>Front-end Projects</label>
+
+        <input type="checkbox" value="Back-end projects">
+        <label>Back-end Projects</label>
+    </div>
+    <div class="checkbox">
+            <input type="checkbox" value="Data Visualization">
+            <label>Data Visualization</label>
+
+            <input type="checkbox" value="Videos">
+            <label>Videos</label>
+        </div>
+        <div class="checkbox">
+                <input type="checkbox" value="Additional Courses">
+                <label>Additional Courses</label>
+
+                <input type="checkbox" value="Forums">
+                <label>Forum</label>      
+            </div>
+            <div id="textarea">
+                <p>Any comments or suggestions?</p>
+                <textarea placeholder="Enter your comments here..." rows="3"></textarea>
+            </div>
+            <button id="submit">Submit</button>
+
+
+
+
+</form>
+</body>
+</html>

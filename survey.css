@@ -1,0 +1,114 @@
+    /* Styles for html */
+    html{
+     background: linear-gradient( #FFFFFF,hsl(0, 4%, 35%));
+
+    }
+    /* styles for title */
+    #title{
+    text-align: center;
+    font-family: Poppins;
+    text-transform: uppercase;
+    }
+
+
+    /* Styles for form */
+    #survey-form{
+     background: linear-gradient(#866486,#FFFFFF);
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+     margin-left:40px;
+     margin-right:40px;
+     border:2px solid #FFFFFF;
+     border-radius: 5px; 
+    }
+    
+    /* stylesfor description */
+    #description{
+    text-align: center;
+    font-size: 20px;
+    }
+
+    /* styles for inputs */
+    .name{
+        margin-bottom:20px;
+        margin-left:150px;
+        font-size: 20px;
+    }
+    
+    
+    .Email{
+        margin-bottom:20px;
+        margin-left:150px;
+        font-size: 20px;
+    }
+
+    .number{
+        margin-bottom:20px;
+        margin-left:160px;
+        font-size: 20px;
+    }
+
+    #dropdown{
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 20px; 
+    }
+
+    /* styles for radio,checkboxes */
+    #radio{
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 19px; 
+    }
+     
+    #select{
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 20px;   
+    }
+
+    .checkbox{
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    /* styles for textarea and button */
+     #textarea{
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 20px; 
+     }
+     #submit{
+        margin-top: 30px;
+        margin-left: 200px;
+        font-size: 20px;
+        border-top:1px solid #FFFFFF;
+         
+     }
+    button:hover{
+        color: blue;
+        animation-name: background-color;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes background-color {
+        100% {
+          background-color:       #aa77e4;
+        }
+      }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
