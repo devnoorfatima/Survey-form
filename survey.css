@@ -1,6 +1,6 @@
     /* Styles for html */
     html{
-     background: linear-gradient( #FFFFFF,hsl(0, 4%, 35%));
+     background: hsl(226, 78%, 13%);
 
     }
     /* styles for title */
@@ -8,44 +8,56 @@
     text-align: center;
     font-family: Poppins;
     text-transform: uppercase;
+    color: aliceblue;
     }
 
 
     /* Styles for form */
     #survey-form{
-     background: linear-gradient(#866486,#FFFFFF);
+    color: aqua;
      padding-top: 10px;
      padding-bottom: 10px;
      padding-left: 10px;
      margin-left:40px;
      margin-right:40px;
      border:2px solid #FFFFFF;
-     border-radius: 5px; 
+     border-radius: 5px;
+     font-family: Open Sans; 
     }
     
     /* stylesfor description */
     #description{
     text-align: center;
     font-size: 20px;
+    color: aliceblue
     }
 
     /* styles for inputs */
+    input{
+        background-color:hsl(226, 78%, 13%);
+        border:2px solid hsl(226, 78%, 13%);
+        border-bottom: 2px solid aliceblue;
+    }
+    ::placeholder{
+        color: hsl(226, 78%, 13%);
+    }
+    
     .name{
         margin-bottom:20px;
-        margin-left:150px;
+        margin-left:20px;
         font-size: 20px;
     }
     
     
     .Email{
         margin-bottom:20px;
-        margin-left:150px;
+        margin-left:20px;
         font-size: 20px;
     }
 
     .number{
         margin-bottom:20px;
-        margin-left:160px;
+        margin-left:30px;
         font-size: 20px;
     }
 
@@ -73,19 +85,25 @@
         margin-left: 20px;
         font-size: 20px;
     }
+    select{
+        background-color:bisque;
+    }
+
 
     /* styles for textarea and button */
      #textarea{
         margin-top: 30px;
         margin-left: 20px;
-        font-size: 20px; 
+        font-size: 20px;         
      }
+     
      #submit{
         margin-top: 30px;
         margin-left: 200px;
         font-size: 20px;
-        border-top:1px solid #FFFFFF;
-         
+        border:1px solid hsl(226, 78%, 13%);
+         background-color: hsl(226, 78%, 13%);
+         color: aqua;
      }
     button:hover{
         color: blue;
@@ -95,7 +113,9 @@
     }
     @keyframes background-color {
         100% {
-          background-color:       #aa77e4;
+          background-color: bisque;
+          color: black;
+          border:2px solid black;
         }
       }
     
